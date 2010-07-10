@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="0" failures="1" skip="0"><testcase classname="test_balance" name="test_balance.test_getDate" time="0"><failure type="exceptions.AssertionError">Traceback (most recent call last):
+  File &quot;/opt/local/Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/unittest.py&quot;, line 260, in run
+    testMethod()
+  File &quot;/opt/local/lib/python2.5/site-packages/nose/case.py&quot;, line 183, in runTest
+    self.test(*self.arg)
+  File &quot;/Users/yuki/gitrep/python/temp/hackathon/test_balance.py&quot;, line 13, in test_getDate
+    assert &#39;2010-07-10&#39; == balance.getDate()
+AssertionError
+</failure></testcase></testsuite>
